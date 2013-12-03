@@ -1,0 +1,1 @@
+curl -X GET http://esearch.globoi.com/g1/materia/_search -d '{"size": 1000, "from": 0, "query": {"query_string": {"default_field": "body", "query": "José Dirceu"}}}'
